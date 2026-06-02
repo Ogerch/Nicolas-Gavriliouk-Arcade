@@ -1,0 +1,39 @@
+.GIF {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.GIF img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+    flex: 0 0 100%;
+    width: 100%;
+    scroll-snap-align: start;
+}
+
+
+.GIF img:hover {
+  transform: scale(1.2);
+}
+
+
+@media (max-width: 919px) {
+  .GIF {
+    flex-direction: row;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  .GIF img:hover {
+    flex: 0 0 100%;
+    width: 100%;
+    scroll-snap-align: start;
+    transform: none;
+  }
+}

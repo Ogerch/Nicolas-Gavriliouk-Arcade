@@ -1,0 +1,37 @@
+[id="formRecherche"] {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 12px;
+
+  margin-bottom: 28px;
+
+  padding: 20px;
+
+  background: var(--panel);
+
+  border: 3px solid var(--border);
+
+  box-shadow: 6px 6px 0 var(--shadow);
+}
+
+[id="recherche"] {
+  width: 360px;
+
+  padding: 12px 14px;
+
+  background: #111;
+
+  border: 2px solid var(--border);
+
+  color: var(--text);
+
+  font-family: inherit;
+
+  outline: none;
+
+  box-shadow: inset 3px 3px 0 #000;
+}

@@ -1,0 +1,27 @@
+[id="contact"] {
+  max-width: 1100px;
+  margin: 40px auto 0 auto;
+
+  padding: 20px;
+
+  background: var(--panel);
+
+  border: 3px solid var(--border);
+
+  box-shadow: 6px 6px 0 var(--shadow);
+
+  text-align: center;
+
+  color: var(--text);
+}
+
+[id="contact"] p:first-child {
+  color: var(--yellow);
+  text-shadow: 2px 2px 0 #000;
+}
+
+[id="contact"] address {
+  font-style: normal;
+  line-height: 1.6;
+  color: #aaa08a;
+}

@@ -1,0 +1,31 @@
+[id="contact"] {
+  background-color: #401f3e;
+  color: white;
+  text-align: center;
+  padding: 40px 10px;
+}
+
+[id="contact"] .reseaux {
+  margin: 10px;
+}
+
+[id="contact"] .reseaux a {
+  margin: 0 15px;
+  display: inline-block;
+}
+
+[id="contact"] .reseaux img {
+  background-color: white;
+  border-radius: 50px;
+  border: solid white 2px;
+  width: 60px;
+  transition: transform 0.3s ease;
+}
+
+[id="contact"] .reseaux img:hover {
+  transform: scale(1.2);
+}
+
+[id="contact"] p {
+  margin: 10px;
+}

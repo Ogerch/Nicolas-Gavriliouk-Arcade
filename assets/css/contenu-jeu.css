@@ -1,0 +1,65 @@
+[id="contenu-jeu"],
+[id="contenu-jeu"] > * {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+[id="contenu-jeu"] {
+  background-color: rgb(192, 223, 233);
+  padding: 2%;
+  gap: 20px;
+}
+
+[id="contenu-jeu"] .article-secondaire img {
+  background-color: #401f3e;
+  padding: 5px;
+}
+
+[id="contenu-jeu"] .mini-articles img {
+  aspect-ratio: 16 / 9;
+}
+
+[id="contenu-jeu"] > .article-principale {
+  flex: 1 1 500px; 
+  flex-direction: column;
+  padding-right: 20px;
+  gap: 50px;
+}
+
+[id="contenu-jeu"] > .article-secondaire {
+  flex: 1 1 300px;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* [id="contenu-jeu"] .article-secondaire p {
+  
+} */
+
+[id="contenu-jeu"] .cta {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8em;
+  padding: 10px;
+  background-color: rgb(116, 2, 91);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+    font-family: enchantedLands;
+}
+
+[id="contenu-jeu"] .cta:hover {
+  background-color: red;
+  transform: scale(1.2);
+}
+
+[id="contenu-jeu"] .cta {
+  align-items: center;
+  display: inline-block;
+}
+
+[id="contenu-jeu"] .titre {
+  justify-content: center;
+}

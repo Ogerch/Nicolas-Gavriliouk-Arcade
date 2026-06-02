@@ -1,0 +1,13 @@
+.mini-articles {
+  display: flex;
+  gap: 10px;
+}
+
+.mini-articles picture {
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.mini-articles picture:hover {
+  transform: scale(1.8);
+}

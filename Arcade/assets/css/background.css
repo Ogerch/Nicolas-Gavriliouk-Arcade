@@ -1,0 +1,48 @@
+[id="background-text"] {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+[id="background-text"] .row {
+  padding-top: 30px;
+  display: flex;
+  width: max-content;
+  animation: drift 120s linear infinite;
+}
+
+[id="background-text"] .row span {
+  font-size: 6rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.05);
+}
+
+@keyframes drift {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+[id="background-text"] .r1 {
+  top: 5%;
+}
+[id="background-text"] .r2 {
+  top: 20%;
+}
+[id="background-text"] .r3 {
+  top: 35%;
+}
+[id="background-text"] .r4 {
+  top: 50%;
+}
+[id="background-text"] .r5 {
+  top: 65%;
+}
+[id="background-text"] .r6 {
+  top: 80%;
+}

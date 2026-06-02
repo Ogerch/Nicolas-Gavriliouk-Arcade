@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-dark: #0f0f0f;
+  --panel: #1c1c1c;
+  --panel-light: #2b2b2b;
+
+  --text: #f4ecd4;
+
+  --yellow: #ffd54a;
+  --red: #ff6b6b;
+
+  --border: #f4ecd4;
+  --shadow: #000000;
+}
+
+body {
+  min-height: 100vh;
+  padding: 24px;
+
+  background:
+    radial-gradient(
+      circle at center,
+      #000000,
+      #292626
+    );
+
+  color: var(--text);
+
+  font-family: minecraft, sans-serif;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.message-resultats {
+  grid-column: 1 / -1;
+
+  text-align: center;
+
+  color: var(--red);
+
+  font-weight: bold;
+
+  font-size: 1.1rem;
+
+  padding: 18px;
+
+  text-shadow: 2px 2px 0 #000;
+}
+
+.est-cache {
+  display: none;
+}

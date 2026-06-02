@@ -1,0 +1,37 @@
+/* Layout */
+[id="description-jeu"] {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 30px;
+  padding: 2%;
+  background-color: rgb(106, 180, 204);
+}
+
+[id="description-jeu"] > .description-principale {
+  flex: 1 1 500px;
+  aspect-ratio: 16 / 9;
+}
+
+[id="description-jeu"] > .description-secondaire {
+  flex: 1 1 300px;
+}
+
+[id="description-jeu"] :is(p, h1, h2, h3, li) {
+  padding-bottom: 0.2em;
+}
+
+[id="description-jeu"]  *+h1 {
+  margin-top: 25px;
+}
+
+
+
+ul {
+  list-style-position: inside;
+}
+
+[id="description-jeu"] ul {
+  list-style-position: inside;
+}
+
+

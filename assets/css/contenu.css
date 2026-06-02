@@ -1,0 +1,43 @@
+@import url(contenu-jeu.css);
+@import url(description-jeu.css);
+@import url(banniere.css);
+@import url(carrousel.css);
+@import url(createur.css);
+@import url(contact.css);
+@import url(arcade.css);
+@import url(navigation-principale.css);
+@import url(GIF.css);
+@import url(mini-articles.css);
+@import url(general.css);
+
+[id="contenu"] {
+  padding: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+[id="contenu"] section {
+  margin: 20px 0;
+  background-color: rgba(231, 180, 120, 0.596);
+  border-radius: 30px;
+  padding: 20px;
+  scroll-margin-top: 80px;
+}
+
+@media (max-width: 1525px) {
+  [id="contenu"] {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .navigateur {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 926px) {
+  [id="contenu"] section {
+    scroll-margin-top: 420px;
+  }
+}

@@ -1,0 +1,23 @@
+[id="navigation-principale"] a:hover {
+  background-color: #453f78;
+  color: rgb(255, 255, 255);
+}
+
+[id="navigation-principale"] {
+  background-color: #401f3e;
+  font-size: 1.2em;
+}
+
+[id="navigation-principale"] .navigateur {
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 1000px) {
+  [id="navigation-principale"] .navigateur {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
